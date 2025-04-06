@@ -1,5 +1,7 @@
+import LoginPage from "../pages/LoginPage";
+
 describe('template spec', () => {
   it('passes', () => {
-    cy.visit('https://example.cypress.io')
+   LoginPage.login({});
   })
 })
